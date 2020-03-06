@@ -1,0 +1,45 @@
+.footer {
+    background-color: var(--colorPrimario);
+    color: var(--colorBlanco);
+    padding-top: 1rem;
+}
+
+.bottom {
+    margin-bottom: 1rem;
+}
+
+.footer-navegacion a {
+    color: var(--colorBlanco);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: 300;
+}
+
+.footer-casa-venta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, max-content, 1fr);
+    grid-gap: 1rem;
+}
+
+.footer-casa-venta h3 {
+    grid-column: 1 / -1;
+}
+
+.footer-casa-venta span {
+    display: block;
+}
+
+.footer .footer-final {
+    color: var(--colorBlanco);
+    background-color: #1f7c1f;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer .footer-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

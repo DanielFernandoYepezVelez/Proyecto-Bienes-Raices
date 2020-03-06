@@ -1,5 +1,6 @@
-@import '01-Variables.css';
-@import '02-GeneralStyles.css';
-@import '03-HeaderStyles.css';
-@import '04-HeroStyles.css';
-@import '05-MainStyles.css';
+@import "01-Variables.css";
+@import "02-GeneralStyles.css";
+@import "03-HeaderStyles.css";
+@import "04-HeroStyles.css";
+@import "05-MainStyles.css";
+@import "06-Footer.css";
