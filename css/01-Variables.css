@@ -1,0 +1,10 @@
+:root {
+    --colorPrimario: #7abe47;
+    --colorSecundario: #ffc845;
+    --colorNegro: #000000;
+    --colorBlanco: #ffffff;
+    --colorGrisClaro: #eeeeee;
+    --colorVerdeOscuro: #57a42b;
+    --paddingUnRem: 1rem;
+    --paddingDosRem: 2rem;
+}
